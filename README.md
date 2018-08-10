@@ -1,3 +1,2 @@
 # Responsive-Design
-Responsive Design Projects
-Here's a collection of my projects
+Here's a collection of my responsive web design projects
