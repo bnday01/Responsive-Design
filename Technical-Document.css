@@ -1,0 +1,92 @@
+#navbar {
+  background-color:white;
+  position:fixed;
+  min-width:100px;
+  max-width:25%;
+  height:100%;
+  display:grid;
+  grid-template-rows: 2fr repeat(1fr , 8);
+  box-shadow: 2px 0px 50px black;
+  z-index:1;
+
+
+}
+#reference {
+  min-width:50px;
+  font-size:10pt;
+}
+body {
+  background-color:;
+  display:grid;
+  grid-template-column: auto;
+
+
+
+}
+.nav-link {
+  min-width:100%;
+  height:auto;
+  border-style:solid;
+  border-width:.5px;
+  border-right-width:2px;
+  text-align:center;
+  padding-top:15px;
+  border-color:black;
+}
+.nav-link:hover {
+  background-color:lightgreen;
+
+}
+#main-doc {
+  margin-left:27%;
+  margin-top:20px;
+  margin-right:5%;
+}
+h2 {
+  background-color:lightgrey;
+  padding:10px;
+  border-radius:10px;
+}
+p {
+  padding-top:20px;
+  font-size:12pt;
+}
+.main-section {
+  padding:10px;
+  padding-top:30px;
+}
+a:link {
+  text-decoration:none;
+  color:black;
+}
+li {
+  font-size:13pt;
+
+}
+h3 {
+  padding-top:20px;
+}
+@media only screen and (max-width:600px) {
+  #navbar {
+  background-color:white;
+  overflow:scroll;
+  position:absolute;
+  min-width:100%;
+  max-width:25%;
+  height:40%;
+  display:grid;
+  grid-template-rows: 2fr repeat(1fr , 8);
+  box-shadow: 0px 0px 5px black;
+  z-index:1;
+    border-radius:2px;
+    border-style:solid;
+  }
+
+  #main-doc {
+    margin-left:15px;
+    margin-top:20%;
+    padding-top:50%;
+    min-width:300px;
+  }
+
+}
